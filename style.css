@@ -35,7 +35,14 @@ li {
   background-color: white;
 }
 
+.bordure_texte
+{
+  border-right: 1px #8e86b5 solid;
+  border-bottom: 1px #8e86b5 solid;
+}
+
 .cta {
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
+  border-radius: 50px;
 }
