@@ -4,9 +4,9 @@ body {
   background-color: #1f2039;
 }
 
-a {
+a:hover {
   color: #242424;
-  text-decoration: none;
+  text-decoration: green wavy underline;
 }
 
 em {
@@ -35,7 +35,7 @@ li {
   background-color: white;
 }
 
-.cta {
+.cta a{
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
   border-radius: 50px;
