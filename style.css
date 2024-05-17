@@ -85,5 +85,9 @@ section {
 
 nav {
   display: flex;
-  
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 30px;
 }
