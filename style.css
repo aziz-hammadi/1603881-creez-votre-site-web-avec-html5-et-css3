@@ -82,3 +82,8 @@ section {
   width: 50%;
   margin: auto;
 }
+
+nav {
+  display: flex;
+  
+}
