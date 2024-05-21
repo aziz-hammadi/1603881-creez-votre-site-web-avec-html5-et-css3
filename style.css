@@ -134,7 +134,20 @@ nav a {
   color: #242424;
   margin-bottom: 80px;
 }
+.portfolio-section-photos .grid-paysages{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px; 
+  gap: 15px;
+}
 
+.portfolio-section-photos .grid-portraits{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:300px 300px 300px;
+  gap:15px
+}
+  
 .grid-paysages img,
 .grid-portraits img {
   width: 100%;
