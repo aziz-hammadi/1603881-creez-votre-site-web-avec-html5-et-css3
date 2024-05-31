@@ -21,3 +21,28 @@
   width: 50%;
   margin: auto;
 }
+
+caption{
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 55px;
+}
+table{
+  border-collapse: collapse;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+th, td{
+  border: 1px solid #8e86b5;
+  padding: 15px;
+}
+
+td {
+  border: 1px solid #8e86b5;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
