@@ -29,6 +29,8 @@
   margin-bottom: 15px;
 }
 
+
+
 .accueil-introduction p {
   margin-bottom: 30px;
 }
@@ -37,7 +39,26 @@
   padding-right: 80px;
 }
 
-.section-contact h2 {
+.section-contact h2{
   color: #a5b4fc;
   text-align: center;
+}
+
+form.form_rdv{
+  text-align: center;
+  color:white;
+  padding-top: 25px;
+}
+
+input[type=submit]{
+  margin-top: 25px;
+  background-color: #a5b4fc;
+  color:white;
+  border-radius: 50px;
+  padding: 20px 50px;
+}
+
+.form_text{
+  display: block;
+  padding-bottom: 25px;
 }
