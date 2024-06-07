@@ -45,28 +45,72 @@
 }
 
 form.form_rdv{
-  text-align: center;
   color:white;
+  margin:auto;
+  margin-top: 50px;
 }
 
+.block_form{
+  display: flex;
+  color:white;
+  gap: 15px;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.form_message, .buttom_form{
+
+}
+
+.form_message_bottum{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=text], input[type=email], textarea{
+padding: 10px;
+border-radius: 5px;
+margin-top: 10px;
+margin-bottom: 25px;
+}
+
+textarea{
+  resize: vertical;
+}
+
+input[type=submit]{
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: #a5b4fc;
+  padding: 20px 60px;
+}
+/*
 input[type=submit]{
   margin-top: 25px;
   background-color: #a5b4fc;
   color:white;
+  border: none;
   border-radius: 50px;
-  padding: 20px 50px;
+  padding: 16px 32px;
 }
 
 input[type=text], input[type=email], input[type=submit]{
   margin-top: 10px;
   padding: 10px;
+
 }
 
 .form_nom, .form_email, .form_message{
   padding-top: 25px;
-}
-
-.form_text{
-  display:flexbox;
 
 }
+.form_message{
+  border-radius: 5px;
+  margin: 10px;
+}
+
+*/
