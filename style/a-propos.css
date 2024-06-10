@@ -48,3 +48,10 @@ h1,
 h2 {
   text-align: center;
 }
+
+@media screen and (max-width:996px) {
+.tarif_grille{
+  display: none;
+}  
+  
+}
